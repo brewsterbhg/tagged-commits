@@ -27,8 +27,10 @@
     "figlet": "^1.4.0",
     "inquirer": "^7.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "ava": "^3.8.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "ava"
   }
 }
