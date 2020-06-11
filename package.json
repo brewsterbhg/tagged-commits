@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "CLI tool for generating opinionated commits with issue/ticket #",
   "main": "index.js",
+  "bin": {
+    "tc": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brewsterbhg/tagged-commits.git"
@@ -13,6 +19,7 @@
     "email": "keith.brewster22@gmail.com"
   },
   "keywords": [
+    "cli",
     "git",
     "commit",
     "format"
@@ -24,6 +31,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
+    "esm": "^3.2.25",
     "figlet": "^1.4.0",
     "inquirer": "^7.1.0"
   },
